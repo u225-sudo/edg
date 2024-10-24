@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <title>弹球</title>
+    <style>
+      body {
+        margin: 0;
+        overflow: hidden;
+        font-family: "PingFangSC-Regular", "微软雅黑", sans-serif;
+        height: 100%;
+      }
+
+      h1 {
+        font-size: 2rem;
+        letter-spacing: -1px;
+        position: absolute;
+        margin: 0;
+        top: -4px;
+        right: 5px;
+
+        color: transparent;
+        text-shadow: 0 0 4px white;
+      }
+
+      p {
+        position: absolute;
+        margin: 0;
+        top: 35px;
+        right: 5px;
+        color: #aaa;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>弹球</h1>
+    <p id="ball-count">还剩多少个球</p>
+    <canvas></canvas>
+
+    <script src="main.js"></script>
+  </body>
+</html>
